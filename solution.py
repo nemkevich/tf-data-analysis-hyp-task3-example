@@ -9,5 +9,5 @@ def solution(x: np.array, y: np.array) -> bool:
                  vectorized=True, 
                  n_resamples=500,
                  alternative='greater').pvalue 
-    alpha = 0.07
+    alpha = 0.06
     return p_value < alpha
